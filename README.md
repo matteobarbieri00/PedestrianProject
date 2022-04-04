@@ -1,2 +1,30 @@
 # PedestrianProject
 This is the code that allows to simulate pedestrian dynamics on a two-dimensional cellular automaton
+
+# Local Map Model
+The code is devided in files:
+    
+
+# Floor Field Model 
+The code is devided in the files:
+    
+    bosons.py
+        Here the class Boson is defined with its main features.
+    
+    ferion.py
+        Here the class Ferion is defined with its main features. The type of fermions are 0,1,2,3, where 0 stands for an empty cell, 1 stands for an eastbound pedestrian, 2 westbound, and 3 is used when the fermion is out of the passageway in the file "board.py". 
+
+    board.py
+        Here the class Board is defined, i.e. the object describing the passageway and its dynamics when carrying moving pedestrians.
+    
+    The lounchable files, with the command "python3 'filename'" are:
+        animation_production.py
+            Here one can observe the evolution of the passageway in different manners, by means of imputting a parameter from shell:
+                1: you can observe the evolution for automatically varying parameters (not suggested)
+            For the next ones one must set the parameters directly in the file.
+                2: Whatch the passageway evolve and its order parameter
+                3: Whatch the passageway evolve with its dynamic floor field
+                4: Whatch the passageway evolve with both the order parameter and dynamic floor field.
+        
+        flux.py
+            Here the gaph of the flux in function of the density is made.
