@@ -10,7 +10,16 @@ The code is devided in the files:
 		Here the class Deterministic, daughter of the class Board, is defined. This corresponds to the deterministic sidestepping model.
 	sidestepping.py
 		Here the class Sidestepping, daughter of the class Board, is defined. This corresponds to the heterogeneous sidestepping model.
-
+	The lounchable files, with the command "python3 'filename'" are:
+		record_screen.py
+			Here you can observe the evolution for fixed parameters, changable in the file.
+		gif.py
+			Generates a gif for the evolutions of passageways with different densities.
+		flux.py
+			Generates the graph of the flux in function of the density.
+		generating_data.py, data_analysis.py
+			Generates and process, respectively, the data for the non-organized lanes in function of the density.
+		
 # Floor Field Model 
 The code is devided in the files:
     
