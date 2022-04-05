@@ -2,8 +2,14 @@
 This is the code that allows to simulate pedestrian dynamics on a two-dimensional cellular automaton
 
 # Local Map Model
-The code is devided in files:
-    
+The code is devided in the files:
+
+	board.py
+		Here the class Board is defined with its main features. The grid attribute of an instance of this class contains the cells in which are placed the pedestrians, simply represented by the integer numbers 1,2. The integer 0 stands instead for a void cell.
+	deterministic.py
+		Here the class Deterministic, daughter of the class Board, is defined. This corresponds to the deterministic sidestepping model.
+	sidestepping.py
+		Here the class Sidestepping, daughter of the class Board, is defined. This corresponds to the heterogeneous sidestepping model.
 
 # Floor Field Model 
 The code is devided in the files:
@@ -12,7 +18,7 @@ The code is devided in the files:
         Here the class Boson is defined with its main features.
     
     ferion.py
-        Here the class Ferion is defined with its main features. The type of fermions are 0,1,2,3, where 0 stands for an empty cell, 1 stands for an eastbound pedestrian, 2 westbound, and 3 is used when the fermion is out of the passageway in the file "board.py". 
+        Here the class Fermion is defined with its main features. The type of fermions are 0,1,2,3, where 0 stands for an empty cell, 1 stands for an eastbound pedestrian, 2 westbound, and 3 is used when the fermion is out of the passageway in the file "board.py". 
 
     board.py
         Here the class Board is defined, i.e. the object describing the passageway and its dynamics when carrying moving pedestrians.
