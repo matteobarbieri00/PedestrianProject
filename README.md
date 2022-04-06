@@ -15,7 +15,7 @@ The code is devided in the files:
 			Here you can observe the evolution for fixed parameters, changable in the file.
 		gif.py
 			Generates a gif for the evolutions of passageways with different densities.
-		flux.py
+		graph.py
 			Generates the graph of the flux in function of the density.
 		generating_data.py, data_analysis.py
 			Generates and process, respectively, the data for the non-organized lanes in function of the density.
@@ -26,7 +26,7 @@ The code is devided in the files:
     bosons.py
         Here the class Boson is defined with its main features.
     
-    ferion.py
+    fermion.py
         Here the class Fermion is defined with its main features. The type of fermions are 0,1,2,3, where 0 stands for an empty cell, 1 stands for an eastbound pedestrian, 2 westbound, and 3 is used when the fermion is out of the passageway in the file "board.py". 
 
     board.py
