@@ -42,4 +42,4 @@ The code is devided in the files:
                 4: Whatch the passageway evolve with both the order parameter and dynamic floor field.
         
         flux.py
-            Here the gaph of the flux in function of the density is made.
+            Here the graph of the flux in function of the density is made.
